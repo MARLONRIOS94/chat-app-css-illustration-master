@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
 
-/* font-family: 'Rubik', sans-serif; */
 
 :root {
     /* (font) */
     --font-rubik:'Rubik', sans-serif;
 
     /* primary colors */
-
     /* (sub-heading at the top of the app UI) */
     --Pale_Violet: hsl(276, 100%, 81%);
     /* (chat on the left) */
@@ -35,7 +33,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 body{
