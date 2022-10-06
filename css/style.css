@@ -28,38 +28,77 @@
     /* (radio button outline) */
     --Very_Light_Magenta: hsl(289, 100%, 72%);
 
+    /* Gradients */
+    --Light-Magenta: hsl(293, 100%, 63%);
+    --Light-Violet: hsl(264, 100%, 61%);
 }
 
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
     font-family: var(--font-rubik);
     font-size: 16px;
-    /* background-color: hsl(264, 100%, 61%); */
-    /* display: flex;
-    justify-content: center; */   
+    background-color:var(--Light_Grayish_Violet);
 }
 
-.container{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-}
-
-.box-1{
-    width: 400px;
-    min-height: 100vh;
-    display: flex;
+.section{
+    height:100vh;
+    display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.box-2{
-    width: 400px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction:row;
+.smartphone{
+    width: 65%;
+    padding: 3%;
+    border-radius:20px;
+    background-color: var(--White);
 }
+
+.container-messages{
+    background:var(--Light_Grayish_Violet);
+    border-radius: 20px;
+    /* color:var(--White); */
+}
+
+.background-section-user{
+    background-image: linear-gradient(to right , var(--Light-Violet),var(--Light-Magenta));
+    border-radius: 25px 25px 10px 10px;
+}
+
+.notch{
+    text-align: center;
+    background-color: var(--White);
+    width: 50%;
+    margin: auto;
+    height: 20px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.section-user{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
