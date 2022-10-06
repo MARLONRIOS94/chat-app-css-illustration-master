@@ -97,14 +97,18 @@ section{
 }
 
 .info-user img{
-    width: 25%;
+    width: 20%;
     border-radius: 50%;
     border: 2px solid var(--White);
 }
 
-
 .name-state-user p {
     font-size: 10px;
+    color:var(--Light_Grayish_Violet);
+}
+
+.name-state-user h3{
+    font-size: 16px;
     color:var(--Light_Grayish_Violet);
 }
 
@@ -192,7 +196,11 @@ section{
     font-size:12px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
+}
+
+.type-message p{
+    padding-left: 15px;
 }
 
 .arrow-send{
@@ -213,7 +221,6 @@ section{
     align-items: center;
     text-align:center;
     margin-top:7%;
-    
 }
 
 .paragraph-description h2{
@@ -225,25 +232,4 @@ section{
     margin-top: 3%;
     color: var(--Dark_Grayish_Violet);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
