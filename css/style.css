@@ -239,7 +239,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2%; 
+    padding: 1.6%;
 }
 
 /*  parrafo */
@@ -254,6 +254,7 @@ body{
 /*  parrafo - H2 */
 .paragraph-description h2{
     font-size: 42px;
+    font-weight: 500;
     color:var(--Very_Dark_Desaturated_Violet);
 
 }
@@ -261,7 +262,7 @@ body{
 /*  parrafo - P */
 .paragraph-description p{
     width: 80%;
-    margin-top: 3%;
+    margin-top: 2.5%;
     color: var(--Dark_Grayish_Violet);
 }
 
@@ -287,7 +288,7 @@ body{
     z-index: -1;
 }
 
-/*Responsive design */
+/* Responsive design */
 @media screen and (min-width: 500px){
     .container-all{
         display:flex;
@@ -296,20 +297,65 @@ body{
     }
 
     .smartphone{
-        width: 50%;
-        padding: 1.5%;
+        width:49%;
+        padding: 2%;
     }
 
-    .paragraph-description{
+    .name-state-user h3{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .name-state-user p {
+        font-size: 8px;
+    }
+
+    .user-messages{
+        width: 40%;
+        font-size: 7px;
+    }
+
+    .right-messages{
+        width: 40%;
+        font-size: 7px;
+    }
+
+    .images img{
+        border-radius: 10px;
+        width: 40px;
+    }
+
+    .pay {
+        font-size: 7px;
+        font-weight:400;
         width: 60%;
-        margin: 0% 3%;
-        line-height:1.6;  
+    }
+
+    .pay p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .type-message{
+        font-size:8px;
+    }
+
+
+    .paragraph-description{
+        width: 76%;
+        justify-content: center;
+        line-height:1.4; 
+        margin-top: 7%;
+    }
+
+    .paragraph-description h2{
+        font-size: 38px;
     }
 
     .bgc-purple {
-        width: 40%;
+        width: 45%;
         height: 50vh;
-        border-radius: 0px 0px 200px; 
+        position:absolute;
     }
 
     .bgc-gray {
@@ -331,8 +377,7 @@ body{
     .smartphone{
         width: 15%;
         padding: 0.8%;
-        margin:0% 5% 0% 20%;
-        
+        margin:0% 7% 0% 12%; 
     }
 
     .name-state-user p {
@@ -360,9 +405,8 @@ body{
     }
 
     .pay {
-       
         font-size: 7px;
-        font-weight:bolder;
+        font-weight:400;
         width: 62%;
     }
 
@@ -382,7 +426,7 @@ body{
     }
 
     .paragraph-description{
-        width: 38%;
+        width: 41%;
         text-align: left;
         align-items: flex-start;
         line-height:1.6;
@@ -390,14 +434,15 @@ body{
 
     .bgc-purple {
         width: 30%;
-        height: 78vh;
+        height: 70vh;
         border-radius: 0px 0px 200px 195px;
     }
 
     .bgc-gray {
-        width: 22%;
+        width: 26%;
         height: 78vh;
         border-radius: 220px 0px 0px 0px;
+        
     }
 }
 
