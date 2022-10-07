@@ -288,7 +288,7 @@ body{
 }
 
 /* responsive design */
-@media only screen and (min-height: 865px){
+@media only screen and (min-width: 768px){
     .container-all{
         display:flex;
         flex-direction: row;
@@ -323,3 +323,40 @@ body{
 
 
 }
+
+/* @media only screen and (min-width: 768px){
+    .container-all{
+        display:flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+
+    .smartphone{
+        width: 29%;
+        padding: 0.7%;
+        margin:0% 7% 0% 4%;
+    }
+
+    .paragraph-description{
+        width: 50%;
+        text-align: left;
+        align-items: flex-start;
+        margin: 0% -5% 0% 0%;
+        line-height:1.6;  
+    }
+
+    .bgc-purple {
+        width: 29%;
+        height: 83vh;
+        border-radius: 0px 0px 200px 190px;  
+    }
+
+    .bgc-gray {
+        width: 29%;
+        height: 85vh;
+        border-radius: 300px 0px 0px 0px;
+    }
+
+
+} */
+
