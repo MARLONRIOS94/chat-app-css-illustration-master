@@ -68,7 +68,6 @@ body{
 .container-messages{
     background:var(--Light_Grayish_Violet);
     border-radius: 20px;
-    /* color:var(--White); */
 }
 
 /* fondo total - nombre de usuario */
@@ -83,8 +82,8 @@ body{
     background-color: var(--White);
     width: 50%;
     margin: auto;
-    height: 20px;
-    border-radius: 0px 0px 15px 15px;
+    height: 17px;
+    border-radius: 0px 0px 14px 14px;
 }
 
 /* parte nombre de usuario */
@@ -93,8 +92,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 /* informacion del usuario */
@@ -126,9 +125,10 @@ body{
 }
 
 /* tres puntos - info usuario */
-.three-points{
-    margin-right: 5%;
-    color:var(--Light_Grayish_Violet); 
+.three-points i{
+    margin-right: 15px;
+    font-size: 10px;
+    color:var(--Light_Grayish_Violet);
 }
 
 /* mensajes del usuario */
@@ -213,7 +213,7 @@ body{
 .type-message{
     background-color:var(--White);
     color: var(--Grayish_Blue);
-    margin-top: 7%;
+    margin-top: 6%;
     padding: 2%;
     margin-bottom: 3%;
     width: 90%;
@@ -269,7 +269,7 @@ body{
 .bgc-purple{
     width: 50%;
     height:60vh;
-    background-image: linear-gradient(to right, var(--Light-Magenta), var(--Light-Violet));
+    background-image: linear-gradient(to right , var(--Light-Magenta), var(--Light-Violet));
     position:absolute;
     border-radius: 0px 0px 1000px 0px;
     z-index: -1;
@@ -287,7 +287,40 @@ body{
     z-index: -1;
 }
 
-/* responsive design */
+/*Responsive design */
+@media screen and (min-width: 500px){
+    .container-all{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+
+    .smartphone{
+        width: 50%;
+        padding: 1.5%;
+    }
+
+    .paragraph-description{
+        width: 60%;
+        margin: 0% 3%;
+        line-height:1.6;  
+    }
+
+    .bgc-purple {
+        width: 40%;
+        height: 50vh;
+        border-radius: 0px 0px 200px; 
+    }
+
+    .bgc-gray {
+        width: 40%;
+        height: 50vh;
+        border-radius: 300px 0px 200px;
+    }
+
+}
+
+/*Responsive design */
 @media only screen and (min-width: 768px){
     .container-all{
         display:flex;
@@ -296,67 +329,77 @@ body{
     }
 
     .smartphone{
-        width: 19%;
-        padding: 0.7%;
-        margin:0% 7% 0% 4%;
+        width: 15%;
+        padding: 0.8%;
+        margin:0% 5% 0% 20%;
+        
+    }
+
+    .name-state-user p {
+        font-size: 8px;
+    }
+
+    .name-state-user h3{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .user-messages{
+        width: 47%;
+        font-size: 7px;
+    }
+    
+    .right-messages{
+        width: 47%;
+        font-size: 7px;
+    }
+
+    .images img{
+        border-radius: 10px;
+        width: 40px;
+    }
+
+    .pay {
+       
+        font-size: 7px;
+        font-weight:bolder;
+        width: 62%;
+    }
+
+    .pay p{
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .type-message{
+        font-size:8px;
+    }
+
+    .arrow-send{
+        width: 10%;
+        border-radius: 100px;
+        font-size:20px;
     }
 
     .paragraph-description{
-        width: 35%;
+        width: 38%;
         text-align: left;
         align-items: flex-start;
-        margin: 0% -5% 0% 0%;
         line-height:1.6;
     }
 
     .bgc-purple {
-        width: 29%;
-        height: 83vh;
-        border-radius: 0px 0px 200px 190px;
+        width: 30%;
+        height: 78vh;
+        border-radius: 0px 0px 200px 195px;
     }
 
     .bgc-gray {
-        width: 29%;
-        height: 85vh;
-        border-radius: 300px 0px 0px 0px;
+        width: 22%;
+        height: 78vh;
+        border-radius: 220px 0px 0px 0px;
     }
-
-
 }
 
-/* @media only screen and (min-width: 768px){
-    .container-all{
-        display:flex;
-        flex-direction: row;
-        justify-content:center;
-    }
 
-    .smartphone{
-        width: 29%;
-        padding: 0.7%;
-        margin:0% 7% 0% 4%;
-    }
-
-    .paragraph-description{
-        width: 50%;
-        text-align: left;
-        align-items: flex-start;
-        margin: 0% -5% 0% 0%;
-        line-height:1.6;  
-    }
-
-    .bgc-purple {
-        width: 29%;
-        height: 83vh;
-        border-radius: 0px 0px 200px 190px;  
-    }
-
-    .bgc-gray {
-        width: 29%;
-        height: 85vh;
-        border-radius: 300px 0px 0px 0px;
-    }
-
-
-} */
 
